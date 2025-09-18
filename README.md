@@ -1,5 +1,4 @@
-# Sistema-de-Semaforos-Inteligentes-Autónomos-para-Madrid-con-IA-y-Big-Data-TFM-10-10-
-# 🚦 Sistema de Semáforos Inteligentes para Gran Vía, Madrid con IA y Big Data
+# 🚦 Sistema de Semáforos Inteligentes para Gran Vía, Madrid con IA y Big Data 10/10
 
 Este repositorio contiene el código, análisis y documentación de nuestro **Trabajo de Fin de Máster (TFM)** en Big Data & Business Intelligence, **calificado con 10/10 (Matrícula de Honor)**. El proyecto demuestra una solución de extremo a extremo para optimizar el tráfico urbano mediante un **sistema de semáforos inteligentes autónomos** capaz de optimizar el tráfico urbano mediante **predicción de datos masivos**, **visión por computador** y un **prototipo hardware autosuficiente**.
 

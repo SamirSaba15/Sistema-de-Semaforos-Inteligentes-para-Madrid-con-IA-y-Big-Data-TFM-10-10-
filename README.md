@@ -23,7 +23,7 @@ La congestión vehicular en grandes ciudades como Madrid genera retrasos, aument
 Los semáforos tradicionales, con sus sistemas obsoletos y tiempos fijos, son ineficientes para gestionar la dinámica del tráfico en tiempo real.
 
 Nuestro objetivo fue diseñar y validar un **sistema de semáforos autónomos** que se adapte dinámicamente al flujo de vehículos y peatones, enfocado en la intersección más crítica y congestionada de la ciudad: **Gran Vía – Clavel**.
-
+![Computer Vision](docs/figures/yolo.png)
 ---
 
 ## 🛠️ Stack Tecnológico

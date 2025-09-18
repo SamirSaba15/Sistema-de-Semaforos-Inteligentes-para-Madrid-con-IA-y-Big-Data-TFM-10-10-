@@ -24,6 +24,7 @@ Los semáforos tradicionales, con sus sistemas obsoletos y tiempos fijos, son in
 
 Nuestro objetivo fue diseñar y validar un **sistema de semáforos autónomos** que se adapte dinámicamente al flujo de vehículos y peatones, enfocado en la intersección más crítica y congestionada de la ciudad: **Gran Vía – Clavel**.
 ![Computer Vision](docs/figures/yolo.png)
+
 ---
 
 ## 🛠️ Stack Tecnológico
@@ -73,7 +74,7 @@ TFM-Semaforo-Inteligente/
 Se recopilaron y procesaron **millones de registros** de diversas fuentes del Ayuntamiento de Madrid. El análisis reveló patrones horarios y diarios claros en el tráfico vehicular y peatonal, así como "puntos calientes" de accidentalidad.
 NOTA: Ausencia de datos en la época de la Pandemia Covid-19, se trataron con modelados y predicciones de ML.
 
-![Heatmap de Intensidad Peatonal](docs/figures/Figura_6_Mapa_de_calor_calle_Clavel.png)  (INSERTAR)
+![Intensidad Peatonal Gran Vía](docs/figures/Peatones_GranVía_por_Dirección_de_Movimiento.png)
 
 *Análisis detallado en el notebook: [`01_EDA_y_Preprocesamiento.ipynb`](./notebooks/01_EDA_y_Preprocesamiento.ipynb)*
 
@@ -87,12 +88,11 @@ El modelo se entrenó por dispositivo para capturar las características únicas
 Utilizamos un modelo YOLO para detectar y contar vehículos y peatones en tiempo real a partir de imágenes de las cámaras de tráfico de Madrid. 
 Este módulo proporciona los datos de entrada para la lógica de decisión del semáforo.
 
-![Detección con YOLO en Gran Vía](docs/figures/Figura_50_Camara_Gran_Via.png)
-
 *Implementación y pruebas en: [`03_Deteccion_de_Objetos_con_YOLO.ipynb`](./notebooks/03_Deteccion_de_Objetos_con_YOLO.ipynb)*
 
 ### 4. **Simulación y Prototipo Hardware**
 Para validar la lógica del sistema, adaptamos un motor de simulación en Pygame. Además, se diseñó y calculó la viabilidad de un prototipo físico autónomo basado en una Raspberry Pi y un panel solar, con un consumo estimado de ~15W, garantizando su funcionamiento incluso durante apagones.
+![Computer Vision](docs/figures/yolo2.png)
 
 ---
 
@@ -113,23 +113,9 @@ Para validar la lógica del sistema, adaptamos un motor de simulación en Pygame
 
 ---
 
-## ▶️ Cómo Reproducir este Análisis
+## ▶️ **Nota IMPORTANTE:** Este proyecto utiliza solo un conjunto de datos de muestra para la reproducibilidad. El análisis original se realizó en un entorno de Big Data en Microsoft Azure.
 
-> **Nota IMPORTANTE:** Este proyecto utiliza solo un conjunto de datos de muestra para la reproducibilidad. El análisis original se realizó en un entorno de Big Data en Microsoft Azure.
-
-1.  **Clona el repositorio:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)<tu_usuario>/TFM-Semaforo-Inteligente.git
-    cd TFM-Semaforo-Inteligente
-    ```
-2.  **Crea un entorno virtual e instala las dependencias:**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # En Windows: venv\Scripts\activate
-    pip install -r requirements.txt
-    ```
-3.  **Ejecuta los notebooks:**
-    Inicia Jupyter Lab o Jupyter Notebook y explora la carpeta `/notebooks/`.
+![Ejemplo de Análisis en tiempo real](docs/figures/TPO_Real.png)
 
 ---
 

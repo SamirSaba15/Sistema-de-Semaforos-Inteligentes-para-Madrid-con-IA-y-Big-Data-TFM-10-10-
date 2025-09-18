@@ -3,7 +3,7 @@
 
 Este repositorio contiene el código, análisis y documentación de nuestro **Trabajo de Fin de Máster (TFM)** en Big Data & Business Intelligence, **calificado con 10/10 (Matrícula de Honor)**. El proyecto demuestra una solución de extremo a extremo para optimizar el tráfico urbano mediante un **sistema de semáforos inteligentes autónomos** capaz de optimizar el tráfico urbano mediante **predicción de datos masivos**, **visión por computador** y un **prototipo hardware autosuficiente**.
 
-![Diagrama de Flujo del Sistema](docs/figures/Esquema_1_Flujo_del_sistema.png)
+![Tráfico Histórico](docs/figures/Tráfico_Intensidad_Histórica.png)
 
 ---
 ## 📑 Resumen
